@@ -18,7 +18,7 @@ newRegEx=[0-9]{3}-[0-9]{3}-[0-9]{4}
 #output number of phone numbers in txt file
 egrep -c $newRegEx $practiceTxt
 #find and output number of emails in txt file
-newRegEx=[a-z]+@[a-z]+.com
+newRegEx=@[a-z]+.com
 egrep -c $newRegEx $practiceTxt
 #find and output number of 303 phone numbers in txt file
 newRegEx=303-[0-9]{3}-[0-9]{4}
